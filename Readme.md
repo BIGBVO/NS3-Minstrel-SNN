@@ -35,7 +35,7 @@ git clone https://github.sydney.edu.au/vona0880/NS3_Minstrel_SNN.git
 ```
 
 * Change into the simulation target directory (1.stationary/2.dynamic).
-* Change the target Rate adaptation algorithm (1. Minstrel_SNN, 2. Minstrel_Original, 3. Optimal, 4.Onoe, 5. CARA)
+* Change the target Rate adaptation algorithm (1. Minstrel_SNN, 2. Minstrel_Orig_10, 3. Minstrel_Orig_25, 4.AMRR, 5. AARF, 6.Optimal)
 * Configure waf (Note that this need to be done for every scenario and/or rate adaptation):
 `CXXFLAGS="-std=c++11" ./waf configure --disable-examples --disable-tests`
 * Build:
